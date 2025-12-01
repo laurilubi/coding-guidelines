@@ -1,4 +1,6 @@
 # Coding guidelines
+These coding guidelines are meant to be used as a base for LLM code editors. Mention this readme in your repository readme or LLM instructions.
+
 - better to fail early in code than try to work from a bad state
 - do not use default values where we actually don't want them
 - do not use unneccesary comments that only repeat what was already said in the code
