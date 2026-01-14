@@ -12,7 +12,7 @@ These coding guidelines are meant to be used as a base for LLM code editors. Men
 - optimize usings statements in the tops of file, make sure they are sorted alphabetically
 
 ## Formatting
-- all files should be in UTF-8 encoding, with CRLF line-breaks
+- all files should be in UTF-8 encoding without BOM, with CRLF line-breaks
 - use trailing comma for the last property, if properties are on separate lines
 - use file-scoped namespaces
 - fix formatting when changing code, not very strict though
