@@ -7,7 +7,7 @@ These coding guidelines are meant to be used as a base for LLM code editors. Men
 - do not use unneccesary comments that only repeat what was already said in the code
 - do not keep commented out code, unless there is also a clarifying reason
 - do not maintain both async and sync versions of the same method unless there is a good reason
-- use try-catch only when you can do something useful with the exception
+- use try-catch only when the application can react to the exception in a meaningful way, otherwise let the exception bubble up without try-catch
 - use expression bodied members when reasonable for properties and property-like methods, keep the '=>' on the new line
 - optimize usings statements in the tops of file, make sure they are sorted alphabetically
 
