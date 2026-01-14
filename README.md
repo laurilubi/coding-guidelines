@@ -17,3 +17,4 @@ These coding guidelines are meant to be used as a base for LLM code editors. Men
 - use file-scoped namespaces
 - fix formatting when changing code, not very strict though
 - comments should have a space after the slashes
+- have only one trailing empty line in the end of files
