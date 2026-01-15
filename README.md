@@ -1,3 +1,5 @@
+Version 1.0.0
+
 # Coding guidelines
 These coding guidelines are meant to be used as a base for LLM code editors. Mention this readme in your repository readme or LLM instructions.
 
