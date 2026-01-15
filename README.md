@@ -11,6 +11,9 @@ These coding guidelines are meant to be used as a base for LLM code editors. Men
 - use expression bodied members when reasonable for properties and property-like methods, keep the '=>' on the new line
 - optimize usings statements in the tops of file, make sure they are sorted alphabetically
 
+## Solution and projects
+- nuget package versions should be consolidated via Directory.Packages.props
+- 
 ## Formatting
 - all files should be in UTF-8 encoding without BOM, with CRLF line-breaks
 - use trailing comma for the last property, if properties are on separate lines
