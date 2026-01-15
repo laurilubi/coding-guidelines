@@ -12,8 +12,8 @@ These coding guidelines are meant to be used as a base for LLM code editors. Men
 - optimize usings statements in the tops of file, make sure they are sorted alphabetically
 
 ## Solution and projects
-- nuget package versions should be consolidated via Directory.Packages.props
-- 
+- nuget package versions should be consolidated via Directory.Packages.props, one tag ManagePackageVersionsCentrally should be in this file, along with PackageVersion tags
+
 ## Formatting
 - all files should be in UTF-8 encoding without BOM, with CRLF line-breaks
 - use trailing comma for the last property, if properties are on separate lines
