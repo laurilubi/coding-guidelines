@@ -20,6 +20,7 @@ These coding guidelines are meant to be used as a base for LLM code editors. Men
 - all files should be in UTF-8 encoding without BOM, with CRLF line-breaks
 - use trailing comma for the last property, if properties are on separate lines
 - use file-scoped namespaces
-- fix formatting when changing code, not very strict though
+- improve formatting in the areas where changing code
 - comments should have a space after the slashes
 - have only one trailing empty line in the end of files
+- lambda expressions "=>" should be on the following line
